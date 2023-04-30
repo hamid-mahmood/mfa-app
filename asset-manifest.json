@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/mfa-app/static/css/main.ebd94117.css",
-    "main.js": "/mfa-app/static/js/main.89dcf8a0.js",
+    "main.js": "/mfa-app/static/js/main.1fde3704.js",
     "static/js/787.8ba894fd.chunk.js": "/mfa-app/static/js/787.8ba894fd.chunk.js",
     "static/media/reddit-logo-16.png": "/mfa-app/static/media/reddit-logo-16.ad08f878c513c734eeb5.png",
     "index.html": "/mfa-app/index.html",
     "main.ebd94117.css.map": "/mfa-app/static/css/main.ebd94117.css.map",
-    "main.89dcf8a0.js.map": "/mfa-app/static/js/main.89dcf8a0.js.map",
+    "main.1fde3704.js.map": "/mfa-app/static/js/main.1fde3704.js.map",
     "787.8ba894fd.chunk.js.map": "/mfa-app/static/js/787.8ba894fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebd94117.css",
-    "static/js/main.89dcf8a0.js"
+    "static/js/main.1fde3704.js"
   ]
 }
