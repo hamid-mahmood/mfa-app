@@ -1,3 +1,7 @@
+# This app is deployed on github pages
+
+You can visit this app at: https://hamid-mahmood.github.io/mfa-app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
