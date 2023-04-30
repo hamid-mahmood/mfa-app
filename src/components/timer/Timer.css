@@ -1,0 +1,47 @@
+.timer-container {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: gray;
+  }
+  
+  .circle-animation {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+  }
+  
+  .circle {
+    fill: transparent;
+    stroke: gray;
+    stroke-width: 4px;
+    stroke-dasharray: 170;
+    transition: stroke-dashoffset 1s linear;
+  }
+
+  @media (max-width: 415px) {
+    .timer-container {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+      }
+
+      .timer {
+        font-size: 14px;
+      }
+
+      .circle {
+        stroke-dasharray: 115;
+      }
+  }

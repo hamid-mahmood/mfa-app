@@ -1,0 +1,54 @@
+.listing-container {
+  width: 100%;
+}
+.mfa-item {
+  width: 100%;
+}
+
+.tokens-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.main-heading {
+  font-weight: 700;
+}
+.topt-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+}
+.img-container {
+  /* width={60} height={60} */
+  width: 60px;
+  height: 60px;
+}
+
+.totp {
+  font-size: 30px;
+  font-weight: 700;
+  color: gray;
+}
+
+.add-new-token {
+  cursor: pointer;
+  color: #ff0000;
+}
+
+@media (max-width: 415px) {
+  .totp{
+    font-size: 24px;
+  }
+  .img-container{
+    width: 40px;
+    height: 40px;
+  }
+}

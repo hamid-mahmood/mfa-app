@@ -1,0 +1,17 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+.content {
+  padding: 0 64px;
+}
+
+@media (max-width: 415px) {
+   .content {
+    padding: 0;
+   }
+}
