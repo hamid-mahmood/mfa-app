@@ -3,7 +3,7 @@ import { RouterProvider } from "./router/router-provider";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter>
       <RouterProvider />
     </BrowserRouter>
   );
