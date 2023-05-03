@@ -3,6 +3,7 @@
 }
 .mfa-item {
   width: 100%;
+  cursor: move;
 }
 
 .tokens-header {

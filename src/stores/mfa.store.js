@@ -25,6 +25,7 @@ function regenerateList(list = []) {
 
 class mfaStore {
   mfaList = [];
+  seconds = 60;
 
   // `this` from rootstore passed to the constructor and we can 
   // assign it to a variable accessible in this class called 
@@ -33,6 +34,13 @@ class mfaStore {
     this.rootStore = rootStore;
     makeAutoObservable(this);
     this.mfaList = generateRandomNumberList(10);
+
+    setInterval(() => {
+      this.seconds = this.seconds === 0 ? 60 : this.seconds - 1;
+      if (this.seconds === 0) {
+        this.regenerate();
+      }
+    }, 1000);
   }
 
   regenerate() {
@@ -46,6 +54,10 @@ class mfaStore {
       name: newToken,
       totp: generateRandomNumber()
     });
+  }
+
+  rearrange(arrangedList = []) {
+    this.mfaList = arrangedList;
   }
 }
 
